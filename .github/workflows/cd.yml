@@ -3,7 +3,7 @@ name: Continuos Deployment workflow
 on:
   push:
     branches:
-      - master
+      - main
 
 jobs:
   cd:
