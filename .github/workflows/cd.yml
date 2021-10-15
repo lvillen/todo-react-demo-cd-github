@@ -18,7 +18,7 @@ jobs:
           sudo chmod 600 ~/.ssh/react-todo-github-cd
       - name: Git config
         run: |
-          git config --global user.email "lvillen@odo-react-github-cd.com"
+          git config --global user.email "lvillen@todo-react-github-cd.com"
           git config --global user.name "lvillen"
       - name: Install  
         run: npm install
