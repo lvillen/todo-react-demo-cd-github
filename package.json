@@ -1,6 +1,6 @@
 {
   "name": "react-todo-demo-app",
-  "version": "1.0.0",
+  "version": "0.1.1",
   "description": "Just a test for a todo-app with react and cd with github-pages",
   "main": "index.js",
   "scripts": {
