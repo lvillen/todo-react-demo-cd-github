@@ -14,8 +14,8 @@ jobs:
       - name: Use SSH key
         run: |
           mkdir -p ~/.ssh/
-          echo "${{secrets.SSH_PRIVATE_KEY}}" > ~/.ssh/react-todo-github-cd
-          sudo chmod 600 ~/.ssh/react-todo-github-cd
+          echo "${{secrets.SSH_PRIVATE_KEY}}" > ~/.ssh/rid_rsa
+          sudo chmod 600 ~/.ssh/id_rsa
       - name: Git config
         run: |
           git config --global user.email "lvillen@todo-react-github-cd.com"
